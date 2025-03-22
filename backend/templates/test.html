@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attention Prediction</title>
+    <style>
+        #frame {
+            width: 600px;
+            height: 450px;
+            border: 1px solid black;
+        }
+        #prediction {
+            font-size: 24px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Attention Prediction</h1>
+    <img id="frame" src="" alt="Video frame will be displayed here">
+    <p id="prediction">Prediction will be displayed here</p>
+
+    <script>
+        function startSSE() {
+            const eventSource = new EventSource('/video');
+            
+            eventSource.onmessage = function(event) {
+                const data = JSON.parse(event.data);
+            console.log(data);    
+                // Update the frame
+                const frameElement = document.getElementById('frame');
+                frameElement.src = 'data:image/jpeg;base64,' + data.frame;
+                
+                // Update the prediction
+                const predictionElement = document.getElementById('prediction');
+                predictionElement.textContent = 'Prediction: ' + data.Prediction;
+            };
+
+            eventSource.onerror = function() {
+                console.log("An error occurred while receiving the stream.");
+                eventSource.close();
+            };
+        }
+
+        window.onload = startSSE;
+    </script>
+</body>
+</html>

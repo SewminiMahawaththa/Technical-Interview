@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Question": "What does a software engineer do ?",
+        "CorrectAnswer": "Writes code, fixes bugs, and improves software",
+        "LevelName": "Beginner"
+    },
+    {
+        "id": 2,
+        "Question": "What is testing in software ?",
+        "CorrectAnswer": "Checking if a program works correctly",
+        "LevelName": "Beginner"
+    },
+    {
+        "id": 3,
+        "Question": "What is a folder ?",
+        "CorrectAnswer": "A place to store multiple files on a computer",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 4,
+        "Question": "What is a shortcut ?",
+        "CorrectAnswer": "A new version of software that fixes problems or adds features",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 5,
+        "Question": "What is an update ?",
+        "CorrectAnswer": "The part of a software or website that users see and interact with",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 6,
+        "Question": "What is a server ?",
+        "CorrectAnswer": "A computer that provides services or data to other computers",
+        "LevelName": "Advanced"
+    }
+]

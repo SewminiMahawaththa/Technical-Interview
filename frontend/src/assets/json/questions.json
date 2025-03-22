@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "Question": "What is a variable in programming?",
+        "CorrectAnswer": "A variable is a named memory storage that holds changeable data during program execution",
+        "LevelName": "Beginner"
+    },
+    {
+        "id": 2,
+        "Question": "What is a function in programming?",
+        "CorrectAnswer": "A function is a block of reusable code that performs a specific task",
+        "LevelName": "Beginner"
+    },
+    {
+        "id": 3,
+        "Question": "What is meant by Polymorphism?",
+        "CorrectAnswer": "Enables a single interface to represent different types.",
+        "LevelName": "Beginner"
+    },
+    {
+        "id": 4,
+        "Question": "What is an if-else statement used for?",
+        "CorrectAnswer": "An if-else statement is used for decision-making in a program based on a given condition.",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 5,
+        "Question": "What is a loop in programming?",
+        "CorrectAnswer": "A loop is a control structure that repeats a block of code multiple times",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 6,
+        "Question": "What is an array in programming?",
+        "CorrectAnswer": "An array is a data structure that stores multiple values of the same type in a single variable.",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 7,
+        "Question": "What is the difference between a list and an array?",
+        "CorrectAnswer": "A list allows storing multiple data types within a single collection, while an array generally holds elements of a single data type.",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 8,
+        "Question": "What is a string in programming?",
+        "CorrectAnswer": "A sequence of characters used to store and manipulate text",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 9,
+        "Question": "What is the purpose of comments in code?",
+        "CorrectAnswer": "Comments can be used to make the code easier to understand and maintain for other developers or for the future.",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 10,
+        "Question": "What is a syntax error?",
+        "CorrectAnswer": "A syntax error occurs when code is written incorrectly according to the rules of the programming language, preventing it from executing.",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 11,
+        "Question": "What is a runtime error?",
+        "CorrectAnswer": "An error that occurs while the program is running, often due to invalid operations",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 12,
+        "Question": "What is the purpose of the return statement in a function?",
+        "CorrectAnswer": "The return statement allows a function to pass computed results to other parts of the program.",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 13,
+        "Question": "What is the difference between global and local variables?",
+        "CorrectAnswer": "A global variable is accessible throughout the program, while a local variable is limited to a function",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 14,
+        "Question": "What is a Boolean value?",
+        "CorrectAnswer": "A Boolean value represents either True or False",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 15,
+        "Question": "What is a switch statement?",
+        "CorrectAnswer": "A switch statement is a control structure that executes different code blocks based on a variable value",
+        "LevelName": "Beginner"
+
+    },
+    {
+        "id": 16,
+        "Question": "How does a loop function in programming and what is its purpose?",
+        "CorrectAnswer": "A loop repeats code until a condition is false",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 17,
+        "Question": "What is the purpose of recursion in programming?",
+        "CorrectAnswer": "A recursion function mean calls itself to solve smaller problems",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 18,
+        "Question": "What is the Agile software development model?",
+        "CorrectAnswer": "Agile software development is an iterative, incremental development prioritizing adaptability and customer satisfaction through rapid software delivery",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 19,
+        "Question": "What is DevOps?",
+        "CorrectAnswer": "DevOps is a set of practices that combines software development and IT operations to improve collaboration and automate workflows.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 20,
+        "Question": "What is software maintenance?",
+        "CorrectAnswer": "Software maintenance is the process of modifying and updating software applications after deployment to fix bugs, improve performance, or adapt to new requirements.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 21,
+        "Question": "What is open-source software?",
+        "CorrectAnswer": "Software with publicly available source code",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 22,
+        "Question": "What is proprietary software?",
+        "CorrectAnswer": "Software that is owned and controlled by a company.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 23,
+        "Question": "What is a sorting algorithm?",
+        "CorrectAnswer": "A method used to arrange data in a specific order.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 24,
+        "Question": "What is binary search?",
+        "CorrectAnswer": "A searching algorithm that finds an element in a sorted array by repeatedly dividing it in half.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 25,
+        "Question": "What is a linked list?",
+        "CorrectAnswer": "A data structure where each element  points to the next, unlike arrays which use contiguous memory.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 26,
+        "Question": "What is a doubly linked list?",
+        "CorrectAnswer": "A linked list where each node has pointers to both its previous and next node.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 27,
+        "Question": "What is a stack?",
+        "CorrectAnswer": "A stack means a data structure that follows the Last In First Out (LIFO) principle",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 28,
+        "Question": "What is a queue?",
+        "CorrectAnswer": "A data structure that follows the First In, First Out (FIFO) principle.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 29,
+        "Question": "What is a priority queue?",
+        "CorrectAnswer": "A queue where elements are dequeued based on priority rather than order of arrival.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 30,
+        "Question": "What is a hash function?",
+        "CorrectAnswer": "A hash function is a mathematical function that converts input data into a fixed-size numerical value, known as a hash value or hash code.",
+        "LevelName": "Intermediate"
+    },
+    {
+        "id": 31,
+        "Question": "What is a singleton design pattern?",
+        "CorrectAnswer": "Ensures a class has only one instance and provides a global point of access to it",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 32,
+        "Question": "What is the difference between a shallow copy and a deep copy?",
+        "CorrectAnswer": "Shallow copies are references; deep copies mean all values",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 33,
+        "Question": "Explain the Concept of 'Progressive Web Apps'.",
+        "CorrectAnswer": "An abstract class can have method implementations, while an interface only contains method signatures. A class can implement multiple interfaces but inherit only one abstract class.",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 34,
+        "Question": "Explain the difference between an abstract class and an interface.",
+        "CorrectAnswer": "Shallow copies are references; deep copies mean all values",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 35,
+        "Question": "What is the purpose of the 'finally' block in exception handling?",
+        "CorrectAnswer": "The 'finally' block is used to execute important code, such as closing database connections, regardless of whether an exception occurs.",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 36,
+        "Question": "What is the time complexity of searching in a balanced binary search tree?",
+        "CorrectAnswer": "The time complexity  is O(log n).",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 37,
+        "Question": "What is the difference between overloading and overriding?",
+        "CorrectAnswer": "Overloading allows multiple methods with the same name but different parameters, whereas overriding allows a subclass to provide a specific implementation of a method in its superclass.",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 38,
+        "Question": "What are the different types of polymorphism in Object-Oriented Programming?",
+        "CorrectAnswer": "Static polymorphism  occurs at compile time, while dynamic polymorphism occurs at runtime.",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 39,
+        "Question": "Explain the difference between an array and a linked list.",
+        "CorrectAnswer": "Arrays have a fixed size and allow O(1) indexing, while linked lists have dynamic size but require O(n) traversal for searching elements.",
+        "LevelName": "Advanced"
+    },
+    {
+        "id": 40,
+        "Question": "What is the difference between synchronous and asynchronous programming?",
+        "CorrectAnswer": "Synchronous programming executes tasks sequentially, blocking the program until a task completes, whereas asynchronous programming allows tasks to run concurrently, preventing blocking and improving responsiveness.",
+        "LevelName": "Advanced"
+    }
+]
