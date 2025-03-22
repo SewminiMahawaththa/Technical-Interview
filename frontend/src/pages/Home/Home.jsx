@@ -38,7 +38,7 @@ function HomePage() {
     }
   }, []);
 
-
+//Home page design
   return (
     <div className="h-screen">
       <TopBar />
